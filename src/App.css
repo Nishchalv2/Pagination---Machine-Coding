@@ -1,0 +1,30 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid black;
+}
+.img-size {
+  width: 120px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 20px;
+}
